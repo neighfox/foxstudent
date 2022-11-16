@@ -34,18 +34,20 @@ export default function Home() {
     </span>
   </Navbar.Brand>
   <Navbar.Toggle />
-  <Navbar.Collapse>
-    
-    <Navbar.Link href="/navbars">
+  <Navbar.Collapse className='text-right bg-slate-100'>
+      
+    <Navbar.Link href="37">
+      
       37
+      
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    <Navbar.Link href="/50">
       50
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    <Navbar.Link href="/71">
       71
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    <Navbar.Link href="/contact">
       Contact
     </Navbar.Link>
   </Navbar.Collapse>
