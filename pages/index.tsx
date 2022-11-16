@@ -53,14 +53,14 @@ export default function Home() {
       
     <Navbar.Link href="37">
       
-      37
+      Thirty Seven
       
     </Navbar.Link>
     <Navbar.Link href="/50">
-      50
+      Fifty
     </Navbar.Link>
     <Navbar.Link href="/71">
-      71
+      Seventy One
     </Navbar.Link>
     <Navbar.Link href="/contact">
       Contact
