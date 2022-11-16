@@ -23,12 +23,15 @@ export default function Home() {
   fluid={true}
   rounded={true}
 >
-  <Navbar.Brand href="https://flowbite.com/">
+  <Navbar.Brand href="https://foxstudent-lets.com/">
+    <picture>
     <img
       src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png"
       className="mr-3 h-6 sm:h-9"
-      alt="Flowbite Logo"
+      alt="fox students"
+     
     />
+    </picture>
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       FoxStudent
     </span>
@@ -71,13 +74,17 @@ export default function Home() {
                             <Slide index={0}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
+                                        <picture>
                                         <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -87,13 +94,17 @@ export default function Home() {
                             <Slide index={1}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
+                                        <picture>
                                         <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -103,13 +114,17 @@ export default function Home() {
                             <Slide index={2}>
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
+                                        <picture>
                                         <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -137,13 +152,17 @@ export default function Home() {
                             <Slide className="carousel__inner-slideLarge" index={0}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -153,13 +172,17 @@ export default function Home() {
                             <Slide className="carousel__inner-slideLarge" index={1}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -168,14 +191,18 @@ export default function Home() {
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={2}>
                                 <div className="gallery-cell w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
+                                    <div className="relative w-full h-full lg:block hidden">#
+                                    <picture>
                                         <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
+                                    <picture>
                                         <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -265,7 +292,9 @@ export default function Home() {
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
                 <a href="https://foxstudent-lets.com" className="flex items-center">
+                <picture>
                     <img src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png" className="mr-3 h-8" alt="FlowBite Logo" />
+                    </picture>
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FoxStudent</span>
                 </a>
             </div>
