@@ -268,7 +268,7 @@ export default function Home() {
         </div>
 
 
-
+<div className='text-center'> <h1 className='text-2xl'> Are you looking for accomadation in 2023. We offer attractive accomadtion exclusively to univesity students</h1>< h1 className='pt-10'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
   
 
 
