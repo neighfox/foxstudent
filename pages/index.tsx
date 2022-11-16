@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
@@ -18,6 +19,17 @@ export default function Home() {
   return (
 
     <>
+
+    <Head>
+    
+    
+      <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png"
+     
+ />
+  <title> Fox Student 
+      </title>
+    </Head>
+    
     <div className='flex flex-col h-screen justify-between'>
     <Navbar
   fluid={true}
@@ -32,12 +44,12 @@ export default function Home() {
      
     />
     </picture>
-    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white font-Sue-Ellen">
       FoxStudent
     </span>
   </Navbar.Brand>
   <Navbar.Toggle />
-  <Navbar.Collapse className='text-right bg-slate-100'>
+  <Navbar.Collapse className='text-right '>
       
     <Navbar.Link href="37">
       
@@ -295,7 +307,7 @@ export default function Home() {
                 <picture>
                     <img src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png" className="mr-3 h-8" alt="FlowBite Logo" />
                     </picture>
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FoxStudent</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-Sue-Ellen">FoxStudent</span>
                 </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1">
@@ -304,10 +316,10 @@ export default function Home() {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Contact</a>
+                            <Link href="contact" className="hover:underline">Contact</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                            <Link href="/" className="hover:underline">Terms &amp; Conditions</Link>
                         </li>
                     </ul>
                 </div>

@@ -62,6 +62,7 @@ module.exports = {
         "Segoe UI Symbol",
         "Noto Color Emoji",
       ],
+      "Sue-Ellen": ["Sue Ellen Francisco", "cursive"],
     },
   },
 };
