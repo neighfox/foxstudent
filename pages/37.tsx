@@ -1,3 +1,4 @@
+import NavBar from "./components/navbar"
 import Link from "next/link"
 
 export default function thirtyseven() {
@@ -5,7 +6,7 @@ export default function thirtyseven() {
     return(
 
         <>
-        <h1>37</h1>
+        <NavBar />
         </>
     )
 }

@@ -1,8 +1,9 @@
+import NavBar from "./components/navbar"
 export default function fifty() {
 
     return(
 
         <>
-        <h1>50</h1></>
+      <NavBar /></>
     )
 }

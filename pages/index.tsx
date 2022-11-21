@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import NavBar from './components/navbar';
 
 
 
@@ -31,42 +32,9 @@ export default function Home() {
     </Head>
     
     <div className='flex flex-col h-screen justify-between'>
-    <Navbar
-  fluid={true}
-  rounded={true}
->
-  <Navbar.Brand href="https://foxstudent-lets.com/">
-    <picture>
-    <img
-      src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png"
-      className="mr-3 h-6 sm:h-9"
-      alt="fox students"
-     
-    />
-    </picture>
-    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white font-Sue-Ellen">
-      FoxStudent
-    </span>
-  </Navbar.Brand>
-  <Navbar.Toggle />
-  <Navbar.Collapse className='text-right '>
-      
-    <Navbar.Link href="37">
-      
-      Thirty Seven
-      
-    </Navbar.Link>
-    <Navbar.Link href="/50">
-      Fifty
-    </Navbar.Link>
-    <Navbar.Link href="/71">
-      Seventy One
-    </Navbar.Link>
-    <Navbar.Link href="/contact">
-      Contact
-    </Navbar.Link>
-  </Navbar.Collapse>
-</Navbar>
+
+        <NavBar />
+
 
 
 
@@ -268,7 +236,7 @@ export default function Home() {
         </div>
 
 
-<div className='text-center'> <h1 className='text-2xl'> Are you looking for accomadation in 2023. We offer attractive accomadtion exclusively to univesity students</h1>< h1 className='pt-10'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
+<div className='text-center'> <h1 className='text-2xl px-2'> Are you looking for accomadation in 2023. We offer attractive accomadation exclusively to univesity students</h1>< h1 className='pt-10 px-2'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
   
 
 

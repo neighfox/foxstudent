@@ -1,8 +1,13 @@
+import NavBar from "./components/navbar"
+
+
 export default function seventyone() {
 
     return(
 
         <>
-        <h1>71</h1></>
+       <NavBar />
+
+       </>
     )
 }
