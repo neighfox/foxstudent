@@ -11,7 +11,7 @@ export default function Footer () {
             <div className="mb-6 md:mb-0">
                 <a href="https://foxstudent-lets.com" className="flex items-center">
                 <picture>
-                    <img src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png" className="mr-3 h-8" alt="FlowBite Logo" />
+                    <img src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png" className="mr-3 h-8" alt="Fox Logo" />
                     </picture>
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-Sue-Ellen">FoxStudent</span>
                 </a>

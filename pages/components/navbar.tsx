@@ -11,7 +11,7 @@ export default function NavBar() {
   fluid={true}
   rounded={true}
 >
-  <Navbar.Brand href="https://foxstudent-lets.com/">
+  <Navbar.Brand href="/">
     <picture>
     <img
       src="https://www.freepnglogos.com/uploads/orange-fox-head-for-logo-png-8.png"
