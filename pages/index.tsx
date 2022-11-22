@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
@@ -9,7 +7,7 @@ import Footer from './components/footer';
 
 
 
-import { Navbar } from "flowbite-react";
+
 
 
 
