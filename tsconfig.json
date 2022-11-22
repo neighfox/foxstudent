@@ -1,4 +1,8 @@
+
+
+
 {
+
 "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -15,7 +19,8 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.js", "pages/api/contact.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.js", "pages/api/contact.js", "pages/contact.js", "pages/contact.js"],
   "exclude": ["node_modules"]
-}
 
+
+}
