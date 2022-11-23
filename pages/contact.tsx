@@ -1,6 +1,7 @@
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import { useState as UseState } from "react";
+declare var setBody: any;
 
 export default function contact() {
   const [name, setName] = UseState("");
@@ -8,7 +9,7 @@ export default function contact() {
   const [message, setMessage] = UseState("");
   const [submitted, setSubmitted] = UseState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e : any) => {
     e.preventDefault();
     console.log("Sending");
     let data = {
@@ -55,7 +56,7 @@ export default function contact() {
           </h2>
           <h3>Alternatively, please fill out the form below </h3>
         </div>
-        <div className="flex h-screen">
+        <div className="flex h-screen px-5 pt-10">
           <form className="w-full max-w-sm m-auto  mt-20">
             <div className="md:flex md:items-center mb-6">
               <div className="md:w-1/3">
@@ -118,18 +119,16 @@ export default function contact() {
               </label>
             </div>
             <div className="md:flex md:items-center">
-              <div className="md:w-1/3"></div>
-              <div className="md:w-2/3">
-                <button
-                  className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                  type="button"
-                  onClick={(e) => {
-                    handleSubmit(e);
-                  }}
-                >
-                  Send Louise a message
-                </button>
-              </div>
+              <button
+                className="shadow bg-blue-500  focus:shadow-outline focus:outline-none  font-bold py-2 px-4 rounded"
+                type="button"
+                onClick={(e) => {
+                  handleSubmit(e);
+                  6;
+                }}
+              >
+                Send Louise a message
+              </button>
             </div>
           </form>
         </div>

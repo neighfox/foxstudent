@@ -1,4 +1,6 @@
-export default function (req, res) {
+
+
+export default function nodemailer (req : any, res : any)  {
   require("dotenv").config();
 
   let nodemailer = require("nodemailer");
@@ -19,7 +21,7 @@ export default function (req, res) {
     html: `<div>${req.body.message}</div><p>Sent from:
     ${req.body.email}</p>`,
   };
-  transporter.sendMail(mailData, function (err, info) {
+  transporter.sendMail(mailData, function (err : any, info : any) {
     if (err) console.log(err);
     else console.log(info);
   });
