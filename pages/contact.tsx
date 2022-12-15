@@ -143,3 +143,6 @@ export default function contact() {
     </>
   );
 }
+
+
+//Just A thought Nathan you should write a novel. 
