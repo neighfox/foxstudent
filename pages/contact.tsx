@@ -8,6 +8,7 @@ export default function contact() {
   const [email, setEmail] = UseState("");
   const [message, setMessage] = UseState("");
   const [submitted, setSubmitted] = UseState(false);
+  const [count , setCount] = UseState(0);
 
   const handleSubmit = (e : any) => {
     e.preventDefault();
@@ -73,7 +74,8 @@ export default function contact() {
                   id="inline-full-name"
                   type="text"
                   onChange={(e) => {
-                    setName(e.target.value);
+                    setName(e.target.value)
+                    
                   }}
                   name="name"
                   placeholder="Insert name"
@@ -111,11 +113,12 @@ export default function contact() {
                   maxLength={300}
                   onChange={(e) => {
                     setMessage(e.target.value);
+                    setCount(e.target.value.length);
                   }}
                   name="message"
                   placeholder="Your message"
                 />
-                <span className="text-sm">0/300</span>
+                <span className="text-sm">{count}/300</span>
               </label>
             </div>
             <div className="md:flex md:items-center">
