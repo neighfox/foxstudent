@@ -54,7 +54,7 @@ export default function Home() {
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
                                         <picture>
-                                        <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -62,7 +62,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -74,7 +74,7 @@ export default function Home() {
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
                                         <picture>
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="chairs" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -82,7 +82,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="chairs" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -94,7 +94,7 @@ export default function Home() {
                                 <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
                                         <picture>
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="chair" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -102,7 +102,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="chair" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
@@ -132,7 +132,7 @@ export default function Home() {
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Lounge_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134112517" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
@@ -140,7 +140,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Kitchen_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134110669" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
@@ -152,7 +152,7 @@ export default function Home() {
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/UF_bedroom_50__2_.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134115709" alt="chairs" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Thirty Seven</h1>
@@ -160,7 +160,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/Garden.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671134114041" alt="chairs" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
@@ -170,9 +170,9 @@ export default function Home() {
                             </Slide>
                             <Slide className="carousel__inner-slideLarge" index={2}>
                                 <div className="gallery-cell w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">#
+                                    <div className="relative w-full h-full lg:block hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/U_F_Bedreoom_50.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671134107671" alt="chair" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Seventy One</h1>
@@ -180,7 +180,7 @@ export default function Home() {
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
                                     <picture>
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://ik.imagekit.io/yvqxn01jp/50_pics/House_50.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1671134115369" alt="chair" className="object-center object-cover w-full h-full" />
                                         </picture>
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
