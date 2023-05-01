@@ -217,16 +217,17 @@ export default function thirtyseven() {
 
 
 
+                <div className=' text-center text-5xl py-80 text-rose-800' >
+
+                </div>
 
 
             </main>
 
-
             <div className="fixed inset-x-0 bottom-0">
 
                 <Footer />
-            </div>
 
-        </>
+            </div></>
     )
 }

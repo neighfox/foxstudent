@@ -111,18 +111,18 @@ export default function seventyone() {
                                         <div className="gallery-cell w-full h-full">
                                             <div className="relative w-full h-full lg:block hidden">
                                                 <picture>
-                                                    <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/House_71__2_.JPG?updatedAt=1671133874965" alt="sitting area" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Front of House</h1>
                                                 </div>
                                             </div>
                                             <div className="relative w-full h-full lg:hidden">
                                                 <picture>
-                                                    <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/House_71__2_.JPG?updatedAt=1671133874965" alt="sitting area" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Front of House</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,18 +131,18 @@ export default function seventyone() {
                                         <div className="gallery-cell w-full h-full">
                                             <div className="relative w-full h-full lg:block hidden">
                                                 <picture>
-                                                    <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/DF_bedroom_71_1_.jpg?updatedAt=1671133862670" alt="chairs" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Thirty Seven</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Downstairs Double</h1>
                                                 </div>
                                             </div>
                                             <div className="relative w-full h-full lg:hidden">
                                                 <picture>
-                                                    <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/DF_bedroom_71_1_.jpg?updatedAt=1671133862670" alt="chairs" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Downstairs Double</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,18 +151,18 @@ export default function seventyone() {
                                         <div className="gallery-cell w-full h-full">
                                             <div className="relative w-full h-full lg:block hidden">#
                                                 <picture>
-                                                    <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/Kitchen_71.jpg?updatedAt=1671133870123" alt="chair" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Seventy One</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Kitchen</h1>
                                                 </div>
                                             </div>
                                             <div className="relative w-full h-full lg:hidden">
                                                 <picture>
-                                                    <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                    <img src="https://ik.imagekit.io/yvqxn01jp/71_new_pics_houses-20221121T073926Z-001/71_new_pics_houses/Kitchen_71.jpg?updatedAt=1671133870123" alt="chair" className="object-center object-cover w-full h-full" />
                                                 </picture>
                                                 <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Kitchen</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,7 +217,9 @@ export default function seventyone() {
                 <div className='text-center'> <h1 className='text-2xl px-2'> Are you looking for accomadation in 2023. We offer attractive accomadation exclusively to univesity students</h1>< h1 className='pt-10 px-2'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
 
 
+                <div className=' text-center text-5xl py-80 text-rose-800' >
 
+                </div>
 
 
             </main>
@@ -227,9 +229,9 @@ export default function seventyone() {
 
                 <Footer />
 
-            </div>
+            </div></>
 
 
-        </>
+
     )
 }

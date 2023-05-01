@@ -1,8 +1,13 @@
 import Link from "next/link"
+function getYear() {
+    return new Date().getFullYear();
+}
 
 export default function Footer() {
 
     return (
+
+
 
         <>
             <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800 relative">
@@ -15,6 +20,7 @@ export default function Footer() {
                                 </picture>
                                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-Sue-Ellen">FoxStudent</span>
                             </a>
+
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1">
 
@@ -33,7 +39,10 @@ export default function Footer() {
                     </div>
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://github.com/neighfox" className="hover:underline">Fox Student</a>
+                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© Roscoe Fox {new Date().getFullYear()} <span>
+
+                        </span> <a href="https://github.com/neighfox" className="hover:underline">Fox Student</a>
+
                         </span>
                         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 
