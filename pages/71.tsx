@@ -7,176 +7,178 @@ import Footer from './components/footer';
 
 export default function seventyone() {
 
-    return(
+    return (
 
         <>
-       <NavBar />
+            <NavBar />
 
-       
 
-<main className='mb-auto'>
 
-<div className="2xl:mx-auto 2xl:container flex justify-center">
-            <div className="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
-                {/* Carousel for Small-Sized Screen */}
-                <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} naturalSlideHeight={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true}>
-                    <div className="js-flickity flex justify-center items-center">
-                        <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
-                            <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 1L1 7L7 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </ButtonBack>
-                        <Slider>
-                            <Slide index={0}>
-                                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                        <picture>
-                                        <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+            <main className='mb-auto'>
+
+                <h1 className=" 5xl:mx-auto text-4xl flex justify-center font-serif">Seventy One</h1>
+
+                <div className="2xl:mx-auto 2xl:container flex justify-center">
+                    <div className="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
+                        {/* Carousel for Small-Sized Screen */}
+                        <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} naturalSlideHeight={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true}>
+                            <div className="js-flickity flex justify-center items-center">
+                                <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+                                    <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 1L1 7L7 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </ButtonBack>
+                                <Slider>
+                                    <Slide index={0}>
+                                        <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                    </Slide>
+                                    <Slide index={1}>
+                                        <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                            <Slide index={1}>
-                                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                        <picture>
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                    </Slide>
+                                    <Slide index={2}>
+                                        <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                    </Slide>
+                                </Slider>
+                                <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
+                                    <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L7 7L1 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </ButtonNext>
+                            </div>
+                        </CarouselProvider>
+
+                        {/* Carousel for Medium and Large-Sized Screen */}
+                        <CarouselProvider className="relative hidden sm:block" naturalSlideWidth={100} naturalSlideHeight={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true} currentSlide={1}>
+                            <div className="js-flickity flex justify-center items-center">
+                                <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+                                    <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 1L1 7L7 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </ButtonBack>
+                                <Slider className="carousel__sliderLarge">
+                                    <Slide className="carousel__inner-slideLarge" index={0}>
+                                        <div className="gallery-cell w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                            <Slide index={2}>
-                                <div className="gallery-cell lg:mr-7 mr-6 lg:w-1/2 sm:w-96 w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                        <picture>
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                    </Slide>
+                                    <Slide className="carousel__inner-slideLarge" index={1}>
+                                        <div className="gallery-cell w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Thirty Seven</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                    </Slide>
+                                    <Slide className="carousel__inner-slideLarge" index={2}>
+                                        <div className="gallery-cell w-full h-full">
+                                            <div className="relative w-full h-full lg:block hidden">#
+                                                <picture>
+                                                    <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Seventy One</h1>
+                                                </div>
+                                            </div>
+                                            <div className="relative w-full h-full lg:hidden">
+                                                <picture>
+                                                    <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                                </picture>
+                                                <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
+                                                    <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                        </Slider>
-                        <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
-                            <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L7 7L1 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </ButtonNext>
+                                    </Slide>
+                                </Slider>
+                                <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
+                                    <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L7 7L1 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </ButtonNext>
+                            </div>
+                        </CarouselProvider>
                     </div>
-                </CarouselProvider>
 
-                {/* Carousel for Medium and Large-Sized Screen */}
-                <CarouselProvider className="relative hidden sm:block" naturalSlideWidth={100} naturalSlideHeight={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true} currentSlide={1}>
-                    <div className="js-flickity flex justify-center items-center">
-                        <ButtonBack role="button" aria-label="slide backward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
-                            <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 1L1 7L7 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </ButtonBack>
-                        <Slider className="carousel__sliderLarge">
-                            <Slide className="carousel__inner-slideLarge" index={0}>
-                                <div className="gallery-cell w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
-                                        </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                            <Slide className="carousel__inner-slideLarge" index={1}>
-                                <div className="gallery-cell w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Thirty Seven</h1>
-                                        </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Fifty</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                            <Slide className="carousel__inner-slideLarge" index={2}>
-                                <div className="gallery-cell w-full h-full">
-                                    <div className="relative w-full h-full lg:block hidden">#
-                                    <picture>
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Seventy One</h1>
-                                        </div>
-                                    </div>
-                                    <div className="relative w-full h-full lg:hidden">
-                                    <picture>
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
-                                        </picture>
-                                        <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
-                                            <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Slide>
-                        </Slider>
-                        <ButtonNext role="button" aria-label="slide forward" className="w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center bg-white border border-gray-300 hover:bg-gray-400 absolute z-30 right-0 mr-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" id="next">
-                            <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L7 7L1 13" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </ButtonNext>
-                    </div>
-                </CarouselProvider>
-            </div>
-
-            <style>
-                {`
+                    <style>
+                        {`
                     .gallery-cell {
                         height: 386px;
                         padding-right:15px;
@@ -208,26 +210,26 @@ export default function seventyone() {
                         
                     }
                 `}
-            </style>
-        </div>
+                    </style>
+                </div>
 
 
-<div className='text-center'> <h1 className='text-2xl px-2'> Are you looking for accomadation in 2023. We offer attractive accomadation exclusively to univesity students</h1>< h1 className='pt-10 px-2'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
-  
+                <div className='text-center'> <h1 className='text-2xl px-2'> Are you looking for accomadation in 2023. We offer attractive accomadation exclusively to univesity students</h1>< h1 className='pt-10 px-2'> If you are looking for a clean and accredited accomadtion within 500 metres of the university campus</h1></div>
 
 
 
 
-</main>
+
+            </main>
 
 
-       <div className="fixed inset-x-0 bottom-0">
+            <div className="fixed inset-x-0 bottom-0">
 
-        <Footer />
+                <Footer />
 
-        </div>
+            </div>
 
 
-       </>
+        </>
     )
 }
